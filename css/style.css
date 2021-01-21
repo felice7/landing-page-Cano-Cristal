@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;500;700;900&display=swap");
+.dFlex, .wrapper .left__panel .container header, .wrapper .left__panel .container section .carousel__indicator, .wrapper .left__panel .container section .carousel__nav, .wrapper .left__panel .container section .carousel__nav div, .wrapper .right__panel .content .facts .features ul li .footage, .wrapper .right__panel .content .facts .features ul li .footage .play__button, .wrapper .right__panel .content .explore, .wrapper .right__panel .content .explore .item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f4ff0f), color-stop(#f4ff0c), color-stop(#f4ff08), color-stop(#f4ff04), to(#f4ff00));
+  background-image: linear-gradient(to right top, #f4ff0f, #f4ff0c, #f4ff08, #f4ff04, #f4ff00);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper .left__panel {
+  width: 45%;
+  height: inherit;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f4ff0f), color-stop(#f4ff0c), color-stop(#f4ff08), color-stop(#f4ff04), to(#f4ff00));
+  background-image: linear-gradient(to right top, #f4ff0f, #f4ff0c, #f4ff08, #f4ff04, #f4ff00);
+}
+
+.wrapper .left__panel .container {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px 0;
+}
+
+.wrapper .left__panel .container header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .left__panel .container header .logo h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.wrapper .left__panel .container header .nav__button img {
+  height: 120px;
+}
+
+.wrapper .left__panel .container section {
+  position: relative;
+  top: 10em;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper .left__panel .container section .carousel__indicator {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 700;
+  font-size: .8em;
+  margin-bottom: 30px;
+}
+
+.wrapper .left__panel .container section .carousel__indicator span:nth-child(2) {
+  content: "";
+  width: 110px;
+  height: 3px;
+  background-color: #080211;
+  margin: 0 10px;
+}
+
+.wrapper .left__panel .container section .content {
+  margin-bottom: 60px;
+  font-family: "Maven Pro", sans-serif;
+  text-align: center;
+}
+
+.wrapper .left__panel .container section .content h1 {
+  font-size: 8em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.wrapper .left__panel .container section .content h3 {
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.wrapper .left__panel .container section .content p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+
+.wrapper .left__panel .container section .carousel__nav div {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #080211;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.wrapper .left__panel .container section .carousel__nav div.carousel__nav__prev {
+  margin-right: 15px;
+}
+
+.wrapper .left__panel .container section .glider-contain {
+  position: relative;
+  bottom: 25px;
+}
+
+.wrapper .left__panel .container section .glider-contain .glider {
+  height: 100px;
+  padding: 0 10px;
+}
+
+.wrapper .right__panel {
+  width: 55%;
+  height: inherit;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f4ff0f), color-stop(#f4ff0c), color-stop(#f4ff08), color-stop(#f4ff04), to(#f4ff00));
+  background-image: linear-gradient(to right top, #f4ff0f, #f4ff0c, #f4ff08, #f4ff04, #f4ff00);
+}
+
+.wrapper .right__panel .view {
+  width: 95%;
+  height: 80vh;
+  float: right;
+  overflow: hidden;
+}
+
+.wrapper .right__panel .view img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper .right__panel .content {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  clear: both;
+}
+
+.wrapper .right__panel .content .facts {
+  width: 40%;
+  height: 44vh;
+  background-color: #080211;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  padding: 60px 0px 60px 0px;
+  color: #fff;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.wrapper .right__panel .content .facts .features {
+  position: relative;
+  width: 250px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper .right__panel .content .facts .features ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.wrapper .right__panel .content .facts .features ul li h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.wrapper .right__panel .content .facts .features ul li p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.wrapper .right__panel .content .facts .features ul li .footage {
+  width: inherit;
+  height: 150px;
+  background: url(/assets/video.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.wrapper .right__panel .content .facts .features ul li .footage .play__button {
+  width: 55px;
+  height: 55px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #000;
+  cursor: pointer;
+}
+
+.wrapper .right__panel .content .facts .features a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-size: .7rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.wrapper .right__panel .content .facts .features a span {
+  margin-left: 10px;
+  background-color: #000;
+}
+
+.wrapper .right__panel .content .facts .features .grp {
+  display: none;
+}
+
+.wrapper .right__panel .content .facts .clip {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  display: none;
+  position: relative;
+  top: 10em;
+}
+
+.wrapper .right__panel .content .facts .clip .close__button {
+  font-size: 1.5em;
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: -6em;
+  cursor: pointer;
+  color: #fff;
+}
+
+.wrapper .right__panel .content .facts .clip video {
+  width: 100%;
+  height: 475px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.wrapper .right__panel .content .facts .clip .caption {
+  color: #fff;
+  margin-top: 20px;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+
+.wrapper .right__panel .content .facts .clip .caption h3 {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.wrapper .right__panel .content .facts .clip .caption p {
+  font-weight: 200;
+}
+
+.wrapper .right__panel .content .explore {
+  width: 50%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#f4ff0f), color-stop(#f4ff0c), color-stop(#f4ff08), color-stop(#f4ff04), to(#f4ff00));
+  background-image: linear-gradient(to right top, #f4ff0f, #f4ff0c, #f4ff08, #f4ff04, #f4ff00);
+  float: right;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.wrapper .right__panel .content .explore .item h1 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.wrapper .right__panel .content .explore .item h3 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.wrapper .right__panel .content .explore .item a {
+  font-size: 1.1rem;
+  color: #080211;
+  text-decoration: none;
+}
+
+.wrapper .right__panel .content .explore .item a span {
+  margin-right: 10px;
+}
+
+.wrapper .right__panel .content .explore img {
+  height: 100%;
+  background: #080211;
+}
+/*# sourceMappingURL=style.css.map */
